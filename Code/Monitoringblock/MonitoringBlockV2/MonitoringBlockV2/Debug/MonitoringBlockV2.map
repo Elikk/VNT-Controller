@@ -1,0 +1,630 @@
+Archive member included because of file (symbol)
+
+d:/program files/msvisualstd10/extensions/atmel/avrgcc/3.4.1.95/avrtoolchain/bin/../lib/gcc/avr/4.6.2/../../../../avr/lib/avr51\libm.a(addsf3.o)
+                              PressureSensor.o (__subsf3)
+d:/program files/msvisualstd10/extensions/atmel/avrgcc/3.4.1.95/avrtoolchain/bin/../lib/gcc/avr/4.6.2/../../../../avr/lib/avr51\libm.a(addsf3x.o)
+                              d:/program files/msvisualstd10/extensions/atmel/avrgcc/3.4.1.95/avrtoolchain/bin/../lib/gcc/avr/4.6.2/../../../../avr/lib/avr51\libm.a(addsf3.o) (__addsf3x)
+d:/program files/msvisualstd10/extensions/atmel/avrgcc/3.4.1.95/avrtoolchain/bin/../lib/gcc/avr/4.6.2/../../../../avr/lib/avr51\libm.a(divsf3.o)
+                              PressureSensor.o (__divsf3)
+d:/program files/msvisualstd10/extensions/atmel/avrgcc/3.4.1.95/avrtoolchain/bin/../lib/gcc/avr/4.6.2/../../../../avr/lib/avr51\libm.a(divsf3x.o)
+                              d:/program files/msvisualstd10/extensions/atmel/avrgcc/3.4.1.95/avrtoolchain/bin/../lib/gcc/avr/4.6.2/../../../../avr/lib/avr51\libm.a(divsf3.o) (__divsf3x)
+d:/program files/msvisualstd10/extensions/atmel/avrgcc/3.4.1.95/avrtoolchain/bin/../lib/gcc/avr/4.6.2/../../../../avr/lib/avr51\libm.a(floatsisf.o)
+                              PressureSensor.o (__floatsisf)
+d:/program files/msvisualstd10/extensions/atmel/avrgcc/3.4.1.95/avrtoolchain/bin/../lib/gcc/avr/4.6.2/../../../../avr/lib/avr51\libm.a(fp_inf.o)
+                              d:/program files/msvisualstd10/extensions/atmel/avrgcc/3.4.1.95/avrtoolchain/bin/../lib/gcc/avr/4.6.2/../../../../avr/lib/avr51\libm.a(addsf3x.o) (__fp_inf)
+d:/program files/msvisualstd10/extensions/atmel/avrgcc/3.4.1.95/avrtoolchain/bin/../lib/gcc/avr/4.6.2/../../../../avr/lib/avr51\libm.a(fp_nan.o)
+                              d:/program files/msvisualstd10/extensions/atmel/avrgcc/3.4.1.95/avrtoolchain/bin/../lib/gcc/avr/4.6.2/../../../../avr/lib/avr51\libm.a(addsf3x.o) (__fp_nan)
+d:/program files/msvisualstd10/extensions/atmel/avrgcc/3.4.1.95/avrtoolchain/bin/../lib/gcc/avr/4.6.2/../../../../avr/lib/avr51\libm.a(fp_pscA.o)
+                              d:/program files/msvisualstd10/extensions/atmel/avrgcc/3.4.1.95/avrtoolchain/bin/../lib/gcc/avr/4.6.2/../../../../avr/lib/avr51\libm.a(addsf3x.o) (__fp_pscA)
+d:/program files/msvisualstd10/extensions/atmel/avrgcc/3.4.1.95/avrtoolchain/bin/../lib/gcc/avr/4.6.2/../../../../avr/lib/avr51\libm.a(fp_pscB.o)
+                              d:/program files/msvisualstd10/extensions/atmel/avrgcc/3.4.1.95/avrtoolchain/bin/../lib/gcc/avr/4.6.2/../../../../avr/lib/avr51\libm.a(addsf3x.o) (__fp_pscB)
+d:/program files/msvisualstd10/extensions/atmel/avrgcc/3.4.1.95/avrtoolchain/bin/../lib/gcc/avr/4.6.2/../../../../avr/lib/avr51\libm.a(fp_round.o)
+                              d:/program files/msvisualstd10/extensions/atmel/avrgcc/3.4.1.95/avrtoolchain/bin/../lib/gcc/avr/4.6.2/../../../../avr/lib/avr51\libm.a(addsf3.o) (__fp_round)
+d:/program files/msvisualstd10/extensions/atmel/avrgcc/3.4.1.95/avrtoolchain/bin/../lib/gcc/avr/4.6.2/../../../../avr/lib/avr51\libm.a(fp_split3.o)
+                              d:/program files/msvisualstd10/extensions/atmel/avrgcc/3.4.1.95/avrtoolchain/bin/../lib/gcc/avr/4.6.2/../../../../avr/lib/avr51\libm.a(addsf3x.o) (__fp_split3)
+d:/program files/msvisualstd10/extensions/atmel/avrgcc/3.4.1.95/avrtoolchain/bin/../lib/gcc/avr/4.6.2/../../../../avr/lib/avr51\libm.a(fp_zero.o)
+                              d:/program files/msvisualstd10/extensions/atmel/avrgcc/3.4.1.95/avrtoolchain/bin/../lib/gcc/avr/4.6.2/../../../../avr/lib/avr51\libm.a(addsf3x.o) (__fp_zero)
+d:/program files/msvisualstd10/extensions/atmel/avrgcc/3.4.1.95/avrtoolchain/bin/../lib/gcc/avr/4.6.2/avr51\libgcc.a(_divmodhi4.o)
+                              Display.o (__divmodhi4)
+d:/program files/msvisualstd10/extensions/atmel/avrgcc/3.4.1.95/avrtoolchain/bin/../lib/gcc/avr/4.6.2/avr51\libgcc.a(_exit.o)
+                              d:/program files/msvisualstd10/extensions/atmel/avrgcc/3.4.1.95/avrtoolchain/bin/../lib/gcc/avr/4.6.2/../../../../avr/lib/avr51/crtm128a.o (exit)
+d:/program files/msvisualstd10/extensions/atmel/avrgcc/3.4.1.95/avrtoolchain/bin/../lib/gcc/avr/4.6.2/avr51\libgcc.a(_copy_data.o)
+                              Adc.o (__do_copy_data)
+d:/program files/msvisualstd10/extensions/atmel/avrgcc/3.4.1.95/avrtoolchain/bin/../lib/gcc/avr/4.6.2/avr51\libgcc.a(_clear_bss.o)
+                              Adc.o (__do_clear_bss)
+d:/program files/msvisualstd10/extensions/atmel/avrgcc/3.4.1.95/avrtoolchain/bin/../lib/gcc/avr/4.6.2/avr51\libgcc.a(_udivmodhi4.o)
+                              d:/program files/msvisualstd10/extensions/atmel/avrgcc/3.4.1.95/avrtoolchain/bin/../lib/gcc/avr/4.6.2/avr51\libgcc.a(_divmodhi4.o) (__udivmodhi4)
+
+Allocating common symbols
+Common symbol       size              file
+
+SmallBottomNumberCopy
+                    0x2               Display.o
+SmallTopNumberCopy  0x2               Display.o
+BigMiddleNumberCopy
+                    0x2               Display.o
+blinked             0x2               Display.o
+BigBottomNumberCopy
+                    0x2               Display.o
+BigTopNumberCopy    0x2               Display.o
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+text             0x00000000         0x00020000         xr
+data             0x00800100         0x0000ff00         rw !x
+eeprom           0x00810000         0x00010000         rw !x
+fuse             0x00820000         0x00000400         rw !x
+lock             0x00830000         0x00000400         rw !x
+signature        0x00840000         0x00000400         rw !x
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+Address of section .data set to 0x800100
+LOAD d:/program files/msvisualstd10/extensions/atmel/avrgcc/3.4.1.95/avrtoolchain/bin/../lib/gcc/avr/4.6.2/../../../../avr/lib/avr51/crtm128a.o
+LOAD Adc.o
+LOAD Display.o
+LOAD Interupt.o
+LOAD MonitoringBlockV2.o
+LOAD PressureSensor.o
+START GROUP
+LOAD d:/program files/msvisualstd10/extensions/atmel/avrgcc/3.4.1.95/avrtoolchain/bin/../lib/gcc/avr/4.6.2/../../../../avr/lib/avr51\libm.a
+END GROUP
+LOAD d:/program files/msvisualstd10/extensions/atmel/avrgcc/3.4.1.95/avrtoolchain/bin/../lib/gcc/avr/4.6.2/avr51\libgcc.a
+LOAD d:/program files/msvisualstd10/extensions/atmel/avrgcc/3.4.1.95/avrtoolchain/bin/../lib/gcc/avr/4.6.2/../../../../avr/lib/avr51\libc.a
+LOAD d:/program files/msvisualstd10/extensions/atmel/avrgcc/3.4.1.95/avrtoolchain/bin/../lib/gcc/avr/4.6.2/avr51\libgcc.a
+
+.hash
+ *(.hash)
+
+.dynsym
+ *(.dynsym)
+
+.dynstr
+ *(.dynstr)
+
+.gnu.version
+ *(.gnu.version)
+
+.gnu.version_d
+ *(.gnu.version_d)
+
+.gnu.version_r
+ *(.gnu.version_r)
+
+.rel.init
+ *(.rel.init)
+
+.rela.init
+ *(.rela.init)
+
+.rel.text
+ *(.rel.text)
+ *(.rel.text.*)
+ *(.rel.gnu.linkonce.t*)
+
+.rela.text
+ *(.rela.text)
+ *(.rela.text.*)
+ *(.rela.gnu.linkonce.t*)
+
+.rel.fini
+ *(.rel.fini)
+
+.rela.fini
+ *(.rela.fini)
+
+.rel.rodata
+ *(.rel.rodata)
+ *(.rel.rodata.*)
+ *(.rel.gnu.linkonce.r*)
+
+.rela.rodata
+ *(.rela.rodata)
+ *(.rela.rodata.*)
+ *(.rela.gnu.linkonce.r*)
+
+.rel.data
+ *(.rel.data)
+ *(.rel.data.*)
+ *(.rel.gnu.linkonce.d*)
+
+.rela.data
+ *(.rela.data)
+ *(.rela.data.*)
+ *(.rela.gnu.linkonce.d*)
+
+.rel.ctors
+ *(.rel.ctors)
+
+.rela.ctors
+ *(.rela.ctors)
+
+.rel.dtors
+ *(.rel.dtors)
+
+.rela.dtors
+ *(.rela.dtors)
+
+.rel.got
+ *(.rel.got)
+
+.rela.got
+ *(.rela.got)
+
+.rel.bss
+ *(.rel.bss)
+
+.rela.bss
+ *(.rela.bss)
+
+.rel.plt
+ *(.rel.plt)
+
+.rela.plt
+ *(.rela.plt)
+
+.text           0x00000000      0xf6c
+ *(.vectors)
+ .vectors       0x00000000       0x8c d:/program files/msvisualstd10/extensions/atmel/avrgcc/3.4.1.95/avrtoolchain/bin/../lib/gcc/avr/4.6.2/../../../../avr/lib/avr51/crtm128a.o
+                0x00000000                __vector_default
+                0x00000000                __vectors
+ *(.vectors)
+ *(.progmem.gcc*)
+ *(.progmem*)
+                0x0000008c                . = ALIGN (0x2)
+                0x0000008c                __trampolines_start = .
+ *(.trampolines)
+ .trampolines   0x0000008c        0x0 linker stubs
+ *(.trampolines*)
+                0x0000008c                __trampolines_end = .
+ *(.jumptables)
+ *(.jumptables*)
+ *(.lowtext)
+ *(.lowtext*)
+                0x0000008c                __ctors_start = .
+ *(.ctors)
+                0x0000008c                __ctors_end = .
+                0x0000008c                __dtors_start = .
+ *(.dtors)
+                0x0000008c                __dtors_end = .
+ SORT(*)(.ctors)
+ SORT(*)(.dtors)
+ *(.init0)
+ .init0         0x0000008c        0x0 d:/program files/msvisualstd10/extensions/atmel/avrgcc/3.4.1.95/avrtoolchain/bin/../lib/gcc/avr/4.6.2/../../../../avr/lib/avr51/crtm128a.o
+                0x0000008c                __init
+ *(.init0)
+ *(.init1)
+ *(.init1)
+ *(.init2)
+ .init2         0x0000008c        0xc d:/program files/msvisualstd10/extensions/atmel/avrgcc/3.4.1.95/avrtoolchain/bin/../lib/gcc/avr/4.6.2/../../../../avr/lib/avr51/crtm128a.o
+ *(.init2)
+ *(.init3)
+ *(.init3)
+ *(.init4)
+ .init4         0x00000098       0x1c d:/program files/msvisualstd10/extensions/atmel/avrgcc/3.4.1.95/avrtoolchain/bin/../lib/gcc/avr/4.6.2/avr51\libgcc.a(_copy_data.o)
+                0x00000098                __do_copy_data
+ .init4         0x000000b4       0x10 d:/program files/msvisualstd10/extensions/atmel/avrgcc/3.4.1.95/avrtoolchain/bin/../lib/gcc/avr/4.6.2/avr51\libgcc.a(_clear_bss.o)
+                0x000000b4                __do_clear_bss
+ *(.init4)
+ *(.init5)
+ *(.init5)
+ *(.init6)
+ *(.init6)
+ *(.init7)
+ *(.init7)
+ *(.init8)
+ *(.init8)
+ *(.init9)
+ .init9         0x000000c4        0x8 d:/program files/msvisualstd10/extensions/atmel/avrgcc/3.4.1.95/avrtoolchain/bin/../lib/gcc/avr/4.6.2/../../../../avr/lib/avr51/crtm128a.o
+ *(.init9)
+ *(.text)
+ .text          0x000000cc        0x4 d:/program files/msvisualstd10/extensions/atmel/avrgcc/3.4.1.95/avrtoolchain/bin/../lib/gcc/avr/4.6.2/../../../../avr/lib/avr51/crtm128a.o
+                0x000000cc                __vector_22
+                0x000000cc                __vector_28
+                0x000000cc                __vector_1
+                0x000000cc                __vector_32
+                0x000000cc                __vector_34
+                0x000000cc                __vector_24
+                0x000000cc                __bad_interrupt
+                0x000000cc                __vector_6
+                0x000000cc                __vector_31
+                0x000000cc                __vector_3
+                0x000000cc                __vector_23
+                0x000000cc                __vector_30
+                0x000000cc                __vector_25
+                0x000000cc                __vector_11
+                0x000000cc                __vector_13
+                0x000000cc                __vector_17
+                0x000000cc                __vector_19
+                0x000000cc                __vector_7
+                0x000000cc                __vector_27
+                0x000000cc                __vector_5
+                0x000000cc                __vector_33
+                0x000000cc                __vector_4
+                0x000000cc                __vector_9
+                0x000000cc                __vector_2
+                0x000000cc                __vector_21
+                0x000000cc                __vector_15
+                0x000000cc                __vector_29
+                0x000000cc                __vector_8
+                0x000000cc                __vector_14
+                0x000000cc                __vector_10
+                0x000000cc                __vector_16
+                0x000000cc                __vector_18
+                0x000000cc                __vector_20
+ .text          0x000000d0       0x1a Adc.o
+                0x000000d0                adcPrepare
+                0x000000dc                getAdcVoltage
+ .text          0x000000ea      0xa02 Display.o
+                0x000000ea                showSegmentSmall
+                0x0000017a                showSegmentBig
+                0x0000020a                displayTopSmallRowNumber
+                0x0000031e                displayBottomSmallRowNumber
+                0x00000434                displayBigMidlleRowNumber
+                0x000004f6                displayBigTopRowNumber
+                0x000005e0                displayBigBottomRowNumber
+                0x000006ca                displayAllNumbers
+ .text          0x00000aec      0x118 Interupt.o
+                0x00000aec                setupTimer
+                0x00000b48                __vector_26
+                0x00000bd6                __vector_12
+ .text          0x00000c04       0x24 MonitoringBlockV2.o
+                0x00000c04                main
+ .text          0x00000c28       0x3c PressureSensor.o
+                0x00000c28                GetPressure
+ .text          0x00000c64        0x0 d:/program files/msvisualstd10/extensions/atmel/avrgcc/3.4.1.95/avrtoolchain/bin/../lib/gcc/avr/4.6.2/../../../../avr/lib/avr51\libm.a(addsf3.o)
+ .text          0x00000c64        0x0 d:/program files/msvisualstd10/extensions/atmel/avrgcc/3.4.1.95/avrtoolchain/bin/../lib/gcc/avr/4.6.2/../../../../avr/lib/avr51\libm.a(addsf3x.o)
+ .text          0x00000c64        0x0 d:/program files/msvisualstd10/extensions/atmel/avrgcc/3.4.1.95/avrtoolchain/bin/../lib/gcc/avr/4.6.2/../../../../avr/lib/avr51\libm.a(divsf3.o)
+ .text          0x00000c64        0x0 d:/program files/msvisualstd10/extensions/atmel/avrgcc/3.4.1.95/avrtoolchain/bin/../lib/gcc/avr/4.6.2/../../../../avr/lib/avr51\libm.a(divsf3x.o)
+ .text          0x00000c64        0x0 d:/program files/msvisualstd10/extensions/atmel/avrgcc/3.4.1.95/avrtoolchain/bin/../lib/gcc/avr/4.6.2/../../../../avr/lib/avr51\libm.a(floatsisf.o)
+ .text          0x00000c64        0x0 d:/program files/msvisualstd10/extensions/atmel/avrgcc/3.4.1.95/avrtoolchain/bin/../lib/gcc/avr/4.6.2/../../../../avr/lib/avr51\libm.a(fp_inf.o)
+ .text          0x00000c64        0x0 d:/program files/msvisualstd10/extensions/atmel/avrgcc/3.4.1.95/avrtoolchain/bin/../lib/gcc/avr/4.6.2/../../../../avr/lib/avr51\libm.a(fp_nan.o)
+ .text          0x00000c64        0x0 d:/program files/msvisualstd10/extensions/atmel/avrgcc/3.4.1.95/avrtoolchain/bin/../lib/gcc/avr/4.6.2/../../../../avr/lib/avr51\libm.a(fp_pscA.o)
+ .text          0x00000c64        0x0 d:/program files/msvisualstd10/extensions/atmel/avrgcc/3.4.1.95/avrtoolchain/bin/../lib/gcc/avr/4.6.2/../../../../avr/lib/avr51\libm.a(fp_pscB.o)
+ .text          0x00000c64        0x0 d:/program files/msvisualstd10/extensions/atmel/avrgcc/3.4.1.95/avrtoolchain/bin/../lib/gcc/avr/4.6.2/../../../../avr/lib/avr51\libm.a(fp_round.o)
+ .text          0x00000c64        0x0 d:/program files/msvisualstd10/extensions/atmel/avrgcc/3.4.1.95/avrtoolchain/bin/../lib/gcc/avr/4.6.2/../../../../avr/lib/avr51\libm.a(fp_split3.o)
+ .text          0x00000c64        0x0 d:/program files/msvisualstd10/extensions/atmel/avrgcc/3.4.1.95/avrtoolchain/bin/../lib/gcc/avr/4.6.2/../../../../avr/lib/avr51\libm.a(fp_zero.o)
+ .text          0x00000c64        0x0 d:/program files/msvisualstd10/extensions/atmel/avrgcc/3.4.1.95/avrtoolchain/bin/../lib/gcc/avr/4.6.2/avr51\libgcc.a(_divmodhi4.o)
+ .text          0x00000c64        0x0 d:/program files/msvisualstd10/extensions/atmel/avrgcc/3.4.1.95/avrtoolchain/bin/../lib/gcc/avr/4.6.2/avr51\libgcc.a(_exit.o)
+ .text          0x00000c64        0x0 d:/program files/msvisualstd10/extensions/atmel/avrgcc/3.4.1.95/avrtoolchain/bin/../lib/gcc/avr/4.6.2/avr51\libgcc.a(_copy_data.o)
+ .text          0x00000c64        0x0 d:/program files/msvisualstd10/extensions/atmel/avrgcc/3.4.1.95/avrtoolchain/bin/../lib/gcc/avr/4.6.2/avr51\libgcc.a(_clear_bss.o)
+ .text          0x00000c64        0x0 d:/program files/msvisualstd10/extensions/atmel/avrgcc/3.4.1.95/avrtoolchain/bin/../lib/gcc/avr/4.6.2/avr51\libgcc.a(_udivmodhi4.o)
+                0x00000c64                . = ALIGN (0x2)
+ *(.text.*)
+ .text.avr-libc.fplib
+                0x00000c64        0xa d:/program files/msvisualstd10/extensions/atmel/avrgcc/3.4.1.95/avrtoolchain/bin/../lib/gcc/avr/4.6.2/../../../../avr/lib/avr51\libm.a(addsf3.o)
+                0x00000c64                __subsf3
+                0x00000c66                __addsf3
+ .text.avr-libc.fplib
+                0x00000c6e       0xc0 d:/program files/msvisualstd10/extensions/atmel/avrgcc/3.4.1.95/avrtoolchain/bin/../lib/gcc/avr/4.6.2/../../../../avr/lib/avr51\libm.a(addsf3x.o)
+                0x00000c88                __addsf3x
+ .text.avr-libc.fplib
+                0x00000d2e        0x4 d:/program files/msvisualstd10/extensions/atmel/avrgcc/3.4.1.95/avrtoolchain/bin/../lib/gcc/avr/4.6.2/../../../../avr/lib/avr51\libm.a(divsf3.o)
+                0x00000d2e                __divsf3
+ .text.avr-libc.fplib
+                0x00000d32       0xcc d:/program files/msvisualstd10/extensions/atmel/avrgcc/3.4.1.95/avrtoolchain/bin/../lib/gcc/avr/4.6.2/../../../../avr/lib/avr51\libm.a(divsf3x.o)
+                0x00000d48                __divsf3x
+                0x00000d4c                __divsf3_pse
+ .text.avr-libc.fplib
+                0x00000dfe       0x7a d:/program files/msvisualstd10/extensions/atmel/avrgcc/3.4.1.95/avrtoolchain/bin/../lib/gcc/avr/4.6.2/../../../../avr/lib/avr51\libm.a(floatsisf.o)
+                0x00000dfe                __floatunsisf
+                0x00000e02                __floatsisf
+ .text.avr-libc.fplib
+                0x00000e78        0xc d:/program files/msvisualstd10/extensions/atmel/avrgcc/3.4.1.95/avrtoolchain/bin/../lib/gcc/avr/4.6.2/../../../../avr/lib/avr51\libm.a(fp_inf.o)
+                0x00000e78                __fp_inf
+ .text.avr-libc.fplib
+                0x00000e84        0x6 d:/program files/msvisualstd10/extensions/atmel/avrgcc/3.4.1.95/avrtoolchain/bin/../lib/gcc/avr/4.6.2/../../../../avr/lib/avr51\libm.a(fp_nan.o)
+                0x00000e84                __fp_nan
+ .text.avr-libc.fplib
+                0x00000e8a        0xe d:/program files/msvisualstd10/extensions/atmel/avrgcc/3.4.1.95/avrtoolchain/bin/../lib/gcc/avr/4.6.2/../../../../avr/lib/avr51\libm.a(fp_pscA.o)
+                0x00000e8a                __fp_pscA
+ .text.avr-libc.fplib
+                0x00000e98        0xe d:/program files/msvisualstd10/extensions/atmel/avrgcc/3.4.1.95/avrtoolchain/bin/../lib/gcc/avr/4.6.2/../../../../avr/lib/avr51\libm.a(fp_pscB.o)
+                0x00000e98                __fp_pscB
+ .text.avr-libc.fplib
+                0x00000ea6       0x22 d:/program files/msvisualstd10/extensions/atmel/avrgcc/3.4.1.95/avrtoolchain/bin/../lib/gcc/avr/4.6.2/../../../../avr/lib/avr51\libm.a(fp_round.o)
+                0x00000ea6                __fp_round
+ .text.avr-libc.fplib
+                0x00000ec8       0x44 d:/program files/msvisualstd10/extensions/atmel/avrgcc/3.4.1.95/avrtoolchain/bin/../lib/gcc/avr/4.6.2/../../../../avr/lib/avr51\libm.a(fp_split3.o)
+                0x00000ec8                __fp_split3
+                0x00000ed8                __fp_splitA
+ .text.avr-libc.fplib
+                0x00000f0c        0xe d:/program files/msvisualstd10/extensions/atmel/avrgcc/3.4.1.95/avrtoolchain/bin/../lib/gcc/avr/4.6.2/../../../../avr/lib/avr51\libm.a(fp_zero.o)
+                0x00000f0c                __fp_zero
+                0x00000f0e                __fp_szero
+ .text.libgcc   0x00000f1a       0x26 d:/program files/msvisualstd10/extensions/atmel/avrgcc/3.4.1.95/avrtoolchain/bin/../lib/gcc/avr/4.6.2/avr51\libgcc.a(_divmodhi4.o)
+                0x00000f1a                _div
+                0x00000f1a                __divmodhi4
+ .text.libgcc   0x00000f40        0x0 d:/program files/msvisualstd10/extensions/atmel/avrgcc/3.4.1.95/avrtoolchain/bin/../lib/gcc/avr/4.6.2/avr51\libgcc.a(_exit.o)
+ .text.libgcc   0x00000f40        0x0 d:/program files/msvisualstd10/extensions/atmel/avrgcc/3.4.1.95/avrtoolchain/bin/../lib/gcc/avr/4.6.2/avr51\libgcc.a(_copy_data.o)
+ .text.libgcc   0x00000f40        0x0 d:/program files/msvisualstd10/extensions/atmel/avrgcc/3.4.1.95/avrtoolchain/bin/../lib/gcc/avr/4.6.2/avr51\libgcc.a(_clear_bss.o)
+ .text.libgcc   0x00000f40       0x28 d:/program files/msvisualstd10/extensions/atmel/avrgcc/3.4.1.95/avrtoolchain/bin/../lib/gcc/avr/4.6.2/avr51\libgcc.a(_udivmodhi4.o)
+                0x00000f40                __udivmodhi4
+                0x00000f68                . = ALIGN (0x2)
+ *(.fini9)
+ .fini9         0x00000f68        0x0 d:/program files/msvisualstd10/extensions/atmel/avrgcc/3.4.1.95/avrtoolchain/bin/../lib/gcc/avr/4.6.2/avr51\libgcc.a(_exit.o)
+                0x00000f68                _exit
+                0x00000f68                exit
+ *(.fini9)
+ *(.fini8)
+ *(.fini8)
+ *(.fini7)
+ *(.fini7)
+ *(.fini6)
+ *(.fini6)
+ *(.fini5)
+ *(.fini5)
+ *(.fini4)
+ *(.fini4)
+ *(.fini3)
+ *(.fini3)
+ *(.fini2)
+ *(.fini2)
+ *(.fini1)
+ *(.fini1)
+ *(.fini0)
+ .fini0         0x00000f68        0x4 d:/program files/msvisualstd10/extensions/atmel/avrgcc/3.4.1.95/avrtoolchain/bin/../lib/gcc/avr/4.6.2/avr51\libgcc.a(_exit.o)
+ *(.fini0)
+                0x00000f6c                _etext = .
+
+.data           0x00800100        0x0 load address 0x00000f6c
+                0x00800100                PROVIDE (__data_start, .)
+ *(.data)
+ .data          0x00800100        0x0 d:/program files/msvisualstd10/extensions/atmel/avrgcc/3.4.1.95/avrtoolchain/bin/../lib/gcc/avr/4.6.2/../../../../avr/lib/avr51/crtm128a.o
+ .data          0x00800100        0x0 Adc.o
+ .data          0x00800100        0x0 Display.o
+ .data          0x00800100        0x0 Interupt.o
+ .data          0x00800100        0x0 MonitoringBlockV2.o
+ .data          0x00800100        0x0 PressureSensor.o
+ .data          0x00800100        0x0 d:/program files/msvisualstd10/extensions/atmel/avrgcc/3.4.1.95/avrtoolchain/bin/../lib/gcc/avr/4.6.2/../../../../avr/lib/avr51\libm.a(addsf3.o)
+ .data          0x00800100        0x0 d:/program files/msvisualstd10/extensions/atmel/avrgcc/3.4.1.95/avrtoolchain/bin/../lib/gcc/avr/4.6.2/../../../../avr/lib/avr51\libm.a(addsf3x.o)
+ .data          0x00800100        0x0 d:/program files/msvisualstd10/extensions/atmel/avrgcc/3.4.1.95/avrtoolchain/bin/../lib/gcc/avr/4.6.2/../../../../avr/lib/avr51\libm.a(divsf3.o)
+ .data          0x00800100        0x0 d:/program files/msvisualstd10/extensions/atmel/avrgcc/3.4.1.95/avrtoolchain/bin/../lib/gcc/avr/4.6.2/../../../../avr/lib/avr51\libm.a(divsf3x.o)
+ .data          0x00800100        0x0 d:/program files/msvisualstd10/extensions/atmel/avrgcc/3.4.1.95/avrtoolchain/bin/../lib/gcc/avr/4.6.2/../../../../avr/lib/avr51\libm.a(floatsisf.o)
+ .data          0x00800100        0x0 d:/program files/msvisualstd10/extensions/atmel/avrgcc/3.4.1.95/avrtoolchain/bin/../lib/gcc/avr/4.6.2/../../../../avr/lib/avr51\libm.a(fp_inf.o)
+ .data          0x00800100        0x0 d:/program files/msvisualstd10/extensions/atmel/avrgcc/3.4.1.95/avrtoolchain/bin/../lib/gcc/avr/4.6.2/../../../../avr/lib/avr51\libm.a(fp_nan.o)
+ .data          0x00800100        0x0 d:/program files/msvisualstd10/extensions/atmel/avrgcc/3.4.1.95/avrtoolchain/bin/../lib/gcc/avr/4.6.2/../../../../avr/lib/avr51\libm.a(fp_pscA.o)
+ .data          0x00800100        0x0 d:/program files/msvisualstd10/extensions/atmel/avrgcc/3.4.1.95/avrtoolchain/bin/../lib/gcc/avr/4.6.2/../../../../avr/lib/avr51\libm.a(fp_pscB.o)
+ .data          0x00800100        0x0 d:/program files/msvisualstd10/extensions/atmel/avrgcc/3.4.1.95/avrtoolchain/bin/../lib/gcc/avr/4.6.2/../../../../avr/lib/avr51\libm.a(fp_round.o)
+ .data          0x00800100        0x0 d:/program files/msvisualstd10/extensions/atmel/avrgcc/3.4.1.95/avrtoolchain/bin/../lib/gcc/avr/4.6.2/../../../../avr/lib/avr51\libm.a(fp_split3.o)
+ .data          0x00800100        0x0 d:/program files/msvisualstd10/extensions/atmel/avrgcc/3.4.1.95/avrtoolchain/bin/../lib/gcc/avr/4.6.2/../../../../avr/lib/avr51\libm.a(fp_zero.o)
+ .data          0x00800100        0x0 d:/program files/msvisualstd10/extensions/atmel/avrgcc/3.4.1.95/avrtoolchain/bin/../lib/gcc/avr/4.6.2/avr51\libgcc.a(_divmodhi4.o)
+ .data          0x00800100        0x0 d:/program files/msvisualstd10/extensions/atmel/avrgcc/3.4.1.95/avrtoolchain/bin/../lib/gcc/avr/4.6.2/avr51\libgcc.a(_exit.o)
+ .data          0x00800100        0x0 d:/program files/msvisualstd10/extensions/atmel/avrgcc/3.4.1.95/avrtoolchain/bin/../lib/gcc/avr/4.6.2/avr51\libgcc.a(_copy_data.o)
+ .data          0x00800100        0x0 d:/program files/msvisualstd10/extensions/atmel/avrgcc/3.4.1.95/avrtoolchain/bin/../lib/gcc/avr/4.6.2/avr51\libgcc.a(_clear_bss.o)
+ .data          0x00800100        0x0 d:/program files/msvisualstd10/extensions/atmel/avrgcc/3.4.1.95/avrtoolchain/bin/../lib/gcc/avr/4.6.2/avr51\libgcc.a(_udivmodhi4.o)
+ *(.data*)
+ *(.rodata)
+ *(.rodata*)
+ *(.gnu.linkonce.d*)
+                0x00800100                . = ALIGN (0x2)
+                0x00800100                _edata = .
+                0x00800100                PROVIDE (__data_end, .)
+
+.bss            0x00800100       0x19
+                0x00800100                PROVIDE (__bss_start, .)
+ *(.bss)
+ .bss           0x00800100        0x0 d:/program files/msvisualstd10/extensions/atmel/avrgcc/3.4.1.95/avrtoolchain/bin/../lib/gcc/avr/4.6.2/../../../../avr/lib/avr51/crtm128a.o
+ .bss           0x00800100        0x0 Adc.o
+ .bss           0x00800100        0x1 Display.o
+                0x00800100                blink
+ .bss           0x00800101        0x2 Interupt.o
+                0x00800101                time
+ .bss           0x00800103        0xa MonitoringBlockV2.o
+                0x00800103                BigBottomNumber
+                0x00800105                BigTopNumber
+                0x00800107                BigMiddleNumber
+                0x00800109                SmallBottomNumber
+                0x0080010b                SmallTopNumber
+ .bss           0x0080010d        0x0 PressureSensor.o
+ .bss           0x0080010d        0x0 d:/program files/msvisualstd10/extensions/atmel/avrgcc/3.4.1.95/avrtoolchain/bin/../lib/gcc/avr/4.6.2/../../../../avr/lib/avr51\libm.a(addsf3.o)
+ .bss           0x0080010d        0x0 d:/program files/msvisualstd10/extensions/atmel/avrgcc/3.4.1.95/avrtoolchain/bin/../lib/gcc/avr/4.6.2/../../../../avr/lib/avr51\libm.a(addsf3x.o)
+ .bss           0x0080010d        0x0 d:/program files/msvisualstd10/extensions/atmel/avrgcc/3.4.1.95/avrtoolchain/bin/../lib/gcc/avr/4.6.2/../../../../avr/lib/avr51\libm.a(divsf3.o)
+ .bss           0x0080010d        0x0 d:/program files/msvisualstd10/extensions/atmel/avrgcc/3.4.1.95/avrtoolchain/bin/../lib/gcc/avr/4.6.2/../../../../avr/lib/avr51\libm.a(divsf3x.o)
+ .bss           0x0080010d        0x0 d:/program files/msvisualstd10/extensions/atmel/avrgcc/3.4.1.95/avrtoolchain/bin/../lib/gcc/avr/4.6.2/../../../../avr/lib/avr51\libm.a(floatsisf.o)
+ .bss           0x0080010d        0x0 d:/program files/msvisualstd10/extensions/atmel/avrgcc/3.4.1.95/avrtoolchain/bin/../lib/gcc/avr/4.6.2/../../../../avr/lib/avr51\libm.a(fp_inf.o)
+ .bss           0x0080010d        0x0 d:/program files/msvisualstd10/extensions/atmel/avrgcc/3.4.1.95/avrtoolchain/bin/../lib/gcc/avr/4.6.2/../../../../avr/lib/avr51\libm.a(fp_nan.o)
+ .bss           0x0080010d        0x0 d:/program files/msvisualstd10/extensions/atmel/avrgcc/3.4.1.95/avrtoolchain/bin/../lib/gcc/avr/4.6.2/../../../../avr/lib/avr51\libm.a(fp_pscA.o)
+ .bss           0x0080010d        0x0 d:/program files/msvisualstd10/extensions/atmel/avrgcc/3.4.1.95/avrtoolchain/bin/../lib/gcc/avr/4.6.2/../../../../avr/lib/avr51\libm.a(fp_pscB.o)
+ .bss           0x0080010d        0x0 d:/program files/msvisualstd10/extensions/atmel/avrgcc/3.4.1.95/avrtoolchain/bin/../lib/gcc/avr/4.6.2/../../../../avr/lib/avr51\libm.a(fp_round.o)
+ .bss           0x0080010d        0x0 d:/program files/msvisualstd10/extensions/atmel/avrgcc/3.4.1.95/avrtoolchain/bin/../lib/gcc/avr/4.6.2/../../../../avr/lib/avr51\libm.a(fp_split3.o)
+ .bss           0x0080010d        0x0 d:/program files/msvisualstd10/extensions/atmel/avrgcc/3.4.1.95/avrtoolchain/bin/../lib/gcc/avr/4.6.2/../../../../avr/lib/avr51\libm.a(fp_zero.o)
+ .bss           0x0080010d        0x0 d:/program files/msvisualstd10/extensions/atmel/avrgcc/3.4.1.95/avrtoolchain/bin/../lib/gcc/avr/4.6.2/avr51\libgcc.a(_divmodhi4.o)
+ .bss           0x0080010d        0x0 d:/program files/msvisualstd10/extensions/atmel/avrgcc/3.4.1.95/avrtoolchain/bin/../lib/gcc/avr/4.6.2/avr51\libgcc.a(_exit.o)
+ .bss           0x0080010d        0x0 d:/program files/msvisualstd10/extensions/atmel/avrgcc/3.4.1.95/avrtoolchain/bin/../lib/gcc/avr/4.6.2/avr51\libgcc.a(_copy_data.o)
+ .bss           0x0080010d        0x0 d:/program files/msvisualstd10/extensions/atmel/avrgcc/3.4.1.95/avrtoolchain/bin/../lib/gcc/avr/4.6.2/avr51\libgcc.a(_clear_bss.o)
+ .bss           0x0080010d        0x0 d:/program files/msvisualstd10/extensions/atmel/avrgcc/3.4.1.95/avrtoolchain/bin/../lib/gcc/avr/4.6.2/avr51\libgcc.a(_udivmodhi4.o)
+ *(.bss*)
+ *(COMMON)
+ COMMON         0x0080010d        0xc Display.o
+                0x0080010d                SmallBottomNumberCopy
+                0x0080010f                SmallTopNumberCopy
+                0x00800111                BigMiddleNumberCopy
+                0x00800113                blinked
+                0x00800115                BigBottomNumberCopy
+                0x00800117                BigTopNumberCopy
+                0x00800119                PROVIDE (__bss_end, .)
+                0x00000f6c                __data_load_start = LOADADDR (.data)
+                0x00000f6c                __data_load_end = (__data_load_start + SIZEOF (.data))
+
+.noinit         0x00800119        0x0
+                0x00800119                PROVIDE (__noinit_start, .)
+ *(.noinit*)
+                0x00800119                PROVIDE (__noinit_end, .)
+                0x00800119                _end = .
+                0x00800119                PROVIDE (__heap_start, .)
+
+.eeprom         0x00810000        0x0
+ *(.eeprom*)
+                0x00810000                __eeprom_end = .
+
+.fuse
+ *(.fuse)
+ *(.lfuse)
+ *(.hfuse)
+ *(.efuse)
+
+.lock
+ *(.lock*)
+
+.signature
+ *(.signature*)
+
+.stab           0x00000000     0x19a4
+ *(.stab)
+ .stab          0x00000000      0x6cc d:/program files/msvisualstd10/extensions/atmel/avrgcc/3.4.1.95/avrtoolchain/bin/../lib/gcc/avr/4.6.2/../../../../avr/lib/avr51/crtm128a.o
+ .stab          0x000006cc       0x78 d:/program files/msvisualstd10/extensions/atmel/avrgcc/3.4.1.95/avrtoolchain/bin/../lib/gcc/avr/4.6.2/../../../../avr/lib/avr51\libm.a(addsf3.o)
+                                 0x84 (size before relaxing)
+ .stab          0x00000744      0x4bc d:/program files/msvisualstd10/extensions/atmel/avrgcc/3.4.1.95/avrtoolchain/bin/../lib/gcc/avr/4.6.2/../../../../avr/lib/avr51\libm.a(addsf3x.o)
+                                0x4c8 (size before relaxing)
+ .stab          0x00000c00       0x48 d:/program files/msvisualstd10/extensions/atmel/avrgcc/3.4.1.95/avrtoolchain/bin/../lib/gcc/avr/4.6.2/../../../../avr/lib/avr51\libm.a(divsf3.o)
+                                 0x54 (size before relaxing)
+ .stab          0x00000c48      0x510 d:/program files/msvisualstd10/extensions/atmel/avrgcc/3.4.1.95/avrtoolchain/bin/../lib/gcc/avr/4.6.2/../../../../avr/lib/avr51\libm.a(divsf3x.o)
+                                0x51c (size before relaxing)
+ .stab          0x00001158      0x318 d:/program files/msvisualstd10/extensions/atmel/avrgcc/3.4.1.95/avrtoolchain/bin/../lib/gcc/avr/4.6.2/../../../../avr/lib/avr51\libm.a(floatsisf.o)
+                                0x324 (size before relaxing)
+ .stab          0x00001470       0x78 d:/program files/msvisualstd10/extensions/atmel/avrgcc/3.4.1.95/avrtoolchain/bin/../lib/gcc/avr/4.6.2/../../../../avr/lib/avr51\libm.a(fp_inf.o)
+                                 0x84 (size before relaxing)
+ .stab          0x000014e8       0x54 d:/program files/msvisualstd10/extensions/atmel/avrgcc/3.4.1.95/avrtoolchain/bin/../lib/gcc/avr/4.6.2/../../../../avr/lib/avr51\libm.a(fp_nan.o)
+                                 0x60 (size before relaxing)
+ .stab          0x0000153c       0x84 d:/program files/msvisualstd10/extensions/atmel/avrgcc/3.4.1.95/avrtoolchain/bin/../lib/gcc/avr/4.6.2/../../../../avr/lib/avr51\libm.a(fp_pscA.o)
+                                 0x90 (size before relaxing)
+ .stab          0x000015c0       0x84 d:/program files/msvisualstd10/extensions/atmel/avrgcc/3.4.1.95/avrtoolchain/bin/../lib/gcc/avr/4.6.2/../../../../avr/lib/avr51\libm.a(fp_pscB.o)
+                                 0x90 (size before relaxing)
+ .stab          0x00001644       0xfc d:/program files/msvisualstd10/extensions/atmel/avrgcc/3.4.1.95/avrtoolchain/bin/../lib/gcc/avr/4.6.2/../../../../avr/lib/avr51\libm.a(fp_round.o)
+                                0x108 (size before relaxing)
+ .stab          0x00001740      0x1d4 d:/program files/msvisualstd10/extensions/atmel/avrgcc/3.4.1.95/avrtoolchain/bin/../lib/gcc/avr/4.6.2/../../../../avr/lib/avr51\libm.a(fp_split3.o)
+                                0x1e0 (size before relaxing)
+ .stab          0x00001914       0x90 d:/program files/msvisualstd10/extensions/atmel/avrgcc/3.4.1.95/avrtoolchain/bin/../lib/gcc/avr/4.6.2/../../../../avr/lib/avr51\libm.a(fp_zero.o)
+                                 0x9c (size before relaxing)
+
+.stabstr        0x00000000      0x51e
+ *(.stabstr)
+ .stabstr       0x00000000      0x51e d:/program files/msvisualstd10/extensions/atmel/avrgcc/3.4.1.95/avrtoolchain/bin/../lib/gcc/avr/4.6.2/../../../../avr/lib/avr51/crtm128a.o
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.comment
+ *(.comment)
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges  0x00000000      0x140
+ *(.debug_aranges)
+ .debug_aranges
+                0x00000000       0x20 Adc.o
+ .debug_aranges
+                0x00000020       0x20 Display.o
+ .debug_aranges
+                0x00000040       0x20 Interupt.o
+ .debug_aranges
+                0x00000060       0x20 MonitoringBlockV2.o
+ .debug_aranges
+                0x00000080       0x20 PressureSensor.o
+ .debug_aranges
+                0x000000a0       0x20 d:/program files/msvisualstd10/extensions/atmel/avrgcc/3.4.1.95/avrtoolchain/bin/../lib/gcc/avr/4.6.2/avr51\libgcc.a(_divmodhi4.o)
+ .debug_aranges
+                0x000000c0       0x20 d:/program files/msvisualstd10/extensions/atmel/avrgcc/3.4.1.95/avrtoolchain/bin/../lib/gcc/avr/4.6.2/avr51\libgcc.a(_exit.o)
+ .debug_aranges
+                0x000000e0       0x20 d:/program files/msvisualstd10/extensions/atmel/avrgcc/3.4.1.95/avrtoolchain/bin/../lib/gcc/avr/4.6.2/avr51\libgcc.a(_copy_data.o)
+ .debug_aranges
+                0x00000100       0x20 d:/program files/msvisualstd10/extensions/atmel/avrgcc/3.4.1.95/avrtoolchain/bin/../lib/gcc/avr/4.6.2/avr51\libgcc.a(_clear_bss.o)
+ .debug_aranges
+                0x00000120       0x20 d:/program files/msvisualstd10/extensions/atmel/avrgcc/3.4.1.95/avrtoolchain/bin/../lib/gcc/avr/4.6.2/avr51\libgcc.a(_udivmodhi4.o)
+
+.debug_pubnames
+ *(.debug_pubnames)
+
+.debug_info     0x00000000     0x11ed
+ *(.debug_info)
+ .debug_info    0x00000000       0xb1 Adc.o
+ .debug_info    0x000000b1      0xa7e Display.o
+ .debug_info    0x00000b2f      0x10a Interupt.o
+ .debug_info    0x00000c39       0xe1 MonitoringBlockV2.o
+ .debug_info    0x00000d1a       0x7d PressureSensor.o
+ .debug_info    0x00000d97       0xde d:/program files/msvisualstd10/extensions/atmel/avrgcc/3.4.1.95/avrtoolchain/bin/../lib/gcc/avr/4.6.2/avr51\libgcc.a(_divmodhi4.o)
+ .debug_info    0x00000e75       0xde d:/program files/msvisualstd10/extensions/atmel/avrgcc/3.4.1.95/avrtoolchain/bin/../lib/gcc/avr/4.6.2/avr51\libgcc.a(_exit.o)
+ .debug_info    0x00000f53       0xde d:/program files/msvisualstd10/extensions/atmel/avrgcc/3.4.1.95/avrtoolchain/bin/../lib/gcc/avr/4.6.2/avr51\libgcc.a(_copy_data.o)
+ .debug_info    0x00001031       0xde d:/program files/msvisualstd10/extensions/atmel/avrgcc/3.4.1.95/avrtoolchain/bin/../lib/gcc/avr/4.6.2/avr51\libgcc.a(_clear_bss.o)
+ .debug_info    0x0000110f       0xde d:/program files/msvisualstd10/extensions/atmel/avrgcc/3.4.1.95/avrtoolchain/bin/../lib/gcc/avr/4.6.2/avr51\libgcc.a(_udivmodhi4.o)
+ *(.gnu.linkonce.wi.*)
+
+.debug_abbrev   0x00000000      0x399
+ *(.debug_abbrev)
+ .debug_abbrev  0x00000000       0x70 Adc.o
+ .debug_abbrev  0x00000070      0x198 Display.o
+ .debug_abbrev  0x00000208       0x88 Interupt.o
+ .debug_abbrev  0x00000290       0x66 MonitoringBlockV2.o
+ .debug_abbrev  0x000002f6       0x3f PressureSensor.o
+ .debug_abbrev  0x00000335       0x14 d:/program files/msvisualstd10/extensions/atmel/avrgcc/3.4.1.95/avrtoolchain/bin/../lib/gcc/avr/4.6.2/avr51\libgcc.a(_divmodhi4.o)
+ .debug_abbrev  0x00000349       0x14 d:/program files/msvisualstd10/extensions/atmel/avrgcc/3.4.1.95/avrtoolchain/bin/../lib/gcc/avr/4.6.2/avr51\libgcc.a(_exit.o)
+ .debug_abbrev  0x0000035d       0x14 d:/program files/msvisualstd10/extensions/atmel/avrgcc/3.4.1.95/avrtoolchain/bin/../lib/gcc/avr/4.6.2/avr51\libgcc.a(_copy_data.o)
+ .debug_abbrev  0x00000371       0x14 d:/program files/msvisualstd10/extensions/atmel/avrgcc/3.4.1.95/avrtoolchain/bin/../lib/gcc/avr/4.6.2/avr51\libgcc.a(_clear_bss.o)
+ .debug_abbrev  0x00000385       0x14 d:/program files/msvisualstd10/extensions/atmel/avrgcc/3.4.1.95/avrtoolchain/bin/../lib/gcc/avr/4.6.2/avr51\libgcc.a(_udivmodhi4.o)
+
+.debug_line     0x00000000      0x93d
+ *(.debug_line)
+ .debug_line    0x00000000       0xcd Adc.o
+ .debug_line    0x000000cd      0x38e Display.o
+ .debug_line    0x0000045b       0xe3 Interupt.o
+ .debug_line    0x0000053e       0xdd MonitoringBlockV2.o
+ .debug_line    0x0000061b       0x43 PressureSensor.o
+ .debug_line    0x0000065e       0x99 d:/program files/msvisualstd10/extensions/atmel/avrgcc/3.4.1.95/avrtoolchain/bin/../lib/gcc/avr/4.6.2/avr51\libgcc.a(_divmodhi4.o)
+ .debug_line    0x000006f7       0x88 d:/program files/msvisualstd10/extensions/atmel/avrgcc/3.4.1.95/avrtoolchain/bin/../lib/gcc/avr/4.6.2/avr51\libgcc.a(_exit.o)
+ .debug_line    0x0000077f       0x96 d:/program files/msvisualstd10/extensions/atmel/avrgcc/3.4.1.95/avrtoolchain/bin/../lib/gcc/avr/4.6.2/avr51\libgcc.a(_copy_data.o)
+ .debug_line    0x00000815       0x8e d:/program files/msvisualstd10/extensions/atmel/avrgcc/3.4.1.95/avrtoolchain/bin/../lib/gcc/avr/4.6.2/avr51\libgcc.a(_clear_bss.o)
+ .debug_line    0x000008a3       0x9a d:/program files/msvisualstd10/extensions/atmel/avrgcc/3.4.1.95/avrtoolchain/bin/../lib/gcc/avr/4.6.2/avr51\libgcc.a(_udivmodhi4.o)
+
+.debug_frame    0x00000000      0x208
+ *(.debug_frame)
+ .debug_frame   0x00000000       0x34 Adc.o
+ .debug_frame   0x00000034       0xec Display.o
+ .debug_frame   0x00000120       0xa0 Interupt.o
+ .debug_frame   0x000001c0       0x24 MonitoringBlockV2.o
+ .debug_frame   0x000001e4       0x24 PressureSensor.o
+
+.debug_str      0x00000000      0x359
+ *(.debug_str)
+ .debug_str     0x00000000       0xf4 Adc.o
+                                0x128 (size before relaxing)
+ .debug_str     0x000000f4      0x1e7 Display.o
+                                0x2e1 (size before relaxing)
+ .debug_str     0x000002db       0x38 Interupt.o
+                                0x14f (size before relaxing)
+ .debug_str     0x00000313       0x1e MonitoringBlockV2.o
+                                0x15d (size before relaxing)
+ .debug_str     0x00000331       0x28 PressureSensor.o
+                                0x111 (size before relaxing)
+
+.debug_loc      0x00000000      0xac7
+ *(.debug_loc)
+ .debug_loc     0x00000000       0x1f Adc.o
+ .debug_loc     0x0000001f      0x994 Display.o
+ .debug_loc     0x000009b3      0x114 Interupt.o
+
+.debug_macinfo
+ *(.debug_macinfo)
+OUTPUT(MonitoringBlockV2.elf elf32-avr)
+LOAD linker stubs

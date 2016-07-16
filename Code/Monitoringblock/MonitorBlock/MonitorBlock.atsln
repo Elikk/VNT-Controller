@@ -1,6 +1,6 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 11.00
-# AvrStudio Solution File, Format Version 11.00
+# Atmel Studio Solution File, Format Version 11.00
 Project("{54F91283-7BC4-4236-8FF9-10F437C3AD48}") = "MonitorBlock", "MonitorBlock\MonitorBlock.cproj", "{117426BA-3623-42EA-ACD9-30B23EE8D1E1}"
 EndProject
 Global
