@@ -50,14 +50,10 @@ ISR(TIMER3_COMPA_vect)
 	//SmallTopNumber = (int)getAdcVoltage(ADC_PRESSURE_SENSOR);
 	//SmallBottomNumber= time;
 	//BigBottomNumber = (int)GetPressure()%1000;
-	
-	BigMiddleNumber=time;
-	BigTopNumber = time;
-	//displayAllNumbers();
-	if(getAdcVoltage(ADC_PRESSURE_SENSOR)>512)
-	displayBigBottomRowNumber(getAdcVoltage(ADC_PRESSURE_SENSOR));
-	else
-	displayBigMidlleRowNumber(15);
+	BigTopNumber = GetPressure();
+	//displayTopSmallRowNumber(GetPressure());
+	//displayBigTopRowNumber(GetPressure());
+	displayAllNumbers();
 } 
 
 ISR(TIMER1_COMPA_vect)

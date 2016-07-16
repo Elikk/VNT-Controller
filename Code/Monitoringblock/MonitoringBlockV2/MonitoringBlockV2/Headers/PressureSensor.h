@@ -9,7 +9,7 @@
 #ifndef PRESSURESENSOR_H_
 #define PRESSURESENSOR_H_
 
-float GetPressure();
+int GetPressure();
 
 
 

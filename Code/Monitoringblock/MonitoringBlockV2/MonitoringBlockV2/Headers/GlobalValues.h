@@ -21,7 +21,7 @@
 //ADC kanalai
 #define ADC_KOMPO 0x05 // is kompo ateinantis analoginis signalas PC5
 #define ADC_SERVO 0x01 // is servo variklio ateinantis analoginis padeties signalas PC4
-#define ADC_PRESSURE_SENSOR 0x10 // is slegio daviklio isplycintas
+#define ADC_PRESSURE_SENSOR 0x00 // is slegio daviklio isplycintas
 #define VERSION "V 1.001 15/8/8"
 #define HARDVARE "V 1.001 15/11/19"
 

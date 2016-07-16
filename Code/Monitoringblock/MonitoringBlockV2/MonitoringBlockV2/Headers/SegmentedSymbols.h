@@ -12,6 +12,12 @@
 #define SD_dot		0b11111011
 #define SD_empty	0b11111111
 #define SD_minus    0b11110111
+#define BD_E		0b01010100
+#define BD_A		0b00100100
+#define BD_C		0b01011100
+#define BD_L		0b11011100
+#define BD_H		0b10100100
+#define BD_U		0b10001100
 //------------Diziuju display simboliai---------------
 #define BD_1		0b01000010
 #define BD_2		0b01101101
@@ -26,4 +32,10 @@
 #define BD_dot		0b00010000
 #define BD_empty	0b00000000
 #define BD_minus    0b00000001
+#define BD_E        0b10101101
+#define BD_A		0b11001111
+#define BD_C		0b10101101
+#define BD_L		0b10100100
+#define BD_H		0b11000111
+#define BD_U		0b11100110
 //----------------------------------------------------

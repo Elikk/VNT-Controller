@@ -1,4 +1,5 @@
 #include "Headers/SegmentedSymbols.h"
+#include "Headers/GlobalValues.h"
 #include <avr/io.h>
 #include <stdbool.h> 
 #include <util/delay.h>
@@ -283,6 +284,7 @@ void displayBigTopRowNumber(int numb)
 		{
 			PORTB = 0b01000000; //1x1
 			PORTA = BD_minus;
+			PORTA|=BD_dot;
 			_delay_ms(SEGMENT_DELAY);
 			PORTA=BD_empty;
 			numb=numb*-1;
@@ -291,6 +293,7 @@ void displayBigTopRowNumber(int numb)
 		{
 			PORTB = 0b01000000; //1x1
 			showSegmentBig(numb/100);
+			PORTA|=BD_dot;
 			_delay_ms(SEGMENT_DELAY);
 			PORTA=BD_empty;
 			numb=numb%100;
@@ -414,12 +417,14 @@ void displayAllNumbers()
 	{
 		PORTB = 0b01000000; //1x1
 		PORTA = BD_minus;
+		PORTA|=BD_dot;
 		BigTopNumberCopy=BigTopNumberCopy*-1;
 	}
 	else
 	{
 		PORTB = 0b01000000; //1x1
 		showSegmentBig(BigTopNumberCopy/100);
+		PORTA|=BD_dot;
 		BigTopNumberCopy=BigTopNumberCopy%100;
 	}
 	_delay_ms(SEGMENT_DELAY);
@@ -434,6 +439,7 @@ void displayAllNumbers()
 	
 	PORTB = 0b00000100;   //1x2
 	showSegmentBig(BigTopNumberCopy/10);
+	
 
 	BigTopNumberCopy=BigTopNumberCopy%10;
 	_delay_ms(SEGMENT_DELAY);

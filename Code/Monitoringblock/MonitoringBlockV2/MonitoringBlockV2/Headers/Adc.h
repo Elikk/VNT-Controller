@@ -10,8 +10,9 @@
 #define ADC_H_
 int getAdcVoltage(uint8_t adcSignal);
 void adcPrepare();
-
-
+unsigned int ReadADC(unsigned char channel);
+void adcPrepare2();
+int getADC(uint8_t adcSignal);
 
 
 #endif /* ADC_H_ */

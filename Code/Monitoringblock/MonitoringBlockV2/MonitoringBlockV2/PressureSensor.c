@@ -1,9 +1,9 @@
 
 #include "Headers/Adc.h"
 #include "Headers/GlobalValues.h"
-float GetPressure()
+int GetPressure()
 {
 	// Slegio daviklis butinai turi but uzmaitintas 5v lygiai
-	return (getAdcVoltage(ADC_PRESSURE_SENSOR) - 0.2) / 0.006429;
+	return (int)(((getADC(ADC_PRESSURE_SENSOR)*0.0045)/0.008) -22.2)/1;
 }
 
