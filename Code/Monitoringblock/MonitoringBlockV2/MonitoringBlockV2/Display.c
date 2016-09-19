@@ -348,6 +348,7 @@ void displayBigBottomRowNumber(int numb)
 	
 	PORTB = 0b00010000;   //1x2
 	showSegmentBig(numb/10);
+	PORTA|=BD_dot;
 	_delay_ms(SEGMENT_DELAY);
 	PORTA=BD_empty;
 	numb=numb%10;
@@ -495,6 +496,7 @@ void displayAllNumbers()
 	
 	PORTB = 0b00010000;   //1x2
 	showSegmentBig(BigBottomNumberCopy/10);
+	PORTA|=BD_dot;
 	BigBottomNumberCopy=BigBottomNumberCopy%10;
 	
 	_delay_ms(SEGMENT_DELAY);

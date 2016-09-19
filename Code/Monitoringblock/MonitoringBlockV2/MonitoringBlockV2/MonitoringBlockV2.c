@@ -14,7 +14,9 @@ volatile int SmallBottomNumber = 0;
 volatile int BigMiddleNumber = 0;
 volatile int BigTopNumber = 0;
 volatile int BigBottomNumber = 0;
+
 extern int time;
+extern int rev;
 
 
 // http://www.electroschematics.com/10053/avr-adc/
@@ -27,6 +29,8 @@ int main(void)
 	setupTimer();
 	DDRD = 0xFF;  //set d ports as outputs
 	DDRC = 0xFF;  //set c ports as outputs
+	DDRE = 0x00;
+	PORTE = 0xFF;
 	
 	DDRB = 0xFF;
 	DDRA = 0xFF;
@@ -41,8 +45,7 @@ int main(void)
 //long aa=0;
 	while(1)
 	{
-
-
+		
 		
 	}
 	

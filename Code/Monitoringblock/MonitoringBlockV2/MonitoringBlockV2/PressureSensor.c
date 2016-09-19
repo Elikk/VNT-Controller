@@ -4,6 +4,11 @@
 int GetPressure()
 {
 	// Slegio daviklis butinai turi but uzmaitintas 5v lygiai
-	return (int)(((getADC(ADC_PRESSURE_SENSOR)*0.0045)/0.008) -22.2)/1;
+	float a=(((getADC(ADC_PRESSURE_SENSOR)*ADC_DALIKLIO_DAUGIKLIS)/0.008) -21.2)/1;
+	
+	if (a<0)
+	return 0;
+	else
+	return (int)a;
 }
 

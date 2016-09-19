@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Atmel Studio Solution File, Format Version 11.00
+Project("{54F91283-7BC4-4236-8FF9-10F437C3AD48}") = "VntController2", "VntController2\VntController2.cproj", "{F5B98780-B5B7-4C9C-A0F0-A5DF7768526A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|AVR = Debug|AVR
+		Release|AVR = Release|AVR
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F5B98780-B5B7-4C9C-A0F0-A5DF7768526A}.Debug|AVR.ActiveCfg = Debug|AVR
+		{F5B98780-B5B7-4C9C-A0F0-A5DF7768526A}.Debug|AVR.Build.0 = Debug|AVR
+		{F5B98780-B5B7-4C9C-A0F0-A5DF7768526A}.Release|AVR.ActiveCfg = Release|AVR
+		{F5B98780-B5B7-4C9C-A0F0-A5DF7768526A}.Release|AVR.Build.0 = Release|AVR
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -87,6 +87,15 @@
     <Compile Include="Adc.c">
       <SubType>compile</SubType>
     </Compile>
+    <Compile Include="Headers\Sensors.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="Sensors.c">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="Startup.c">
+      <SubType>compile</SubType>
+    </Compile>
     <Compile Include="Display.c">
       <SubType>compile</SubType>
     </Compile>

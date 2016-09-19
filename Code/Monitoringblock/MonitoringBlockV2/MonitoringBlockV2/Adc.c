@@ -1,4 +1,5 @@
 #include <avr/io.h>
+#include <stdbool.h> 
 
 void adcPrepare()
 {
@@ -34,14 +35,45 @@ int getAdcVoltage(uint8_t adcSignal)
 	while (ADCSRA & (1<<ADSC)); // wait for conversion to complete
 
 	return ADC*0.0045*100;
+	
+	
+	
+	
+	
+	
+	
+	
+	
 }
 
 int getADC(uint8_t adcSignal)
-{
-	ADMUX = adcSignal;
-	ADCSRA |= (1<<ADSC); // Start conversion
-	while (ADCSRA & (1<<ADSC)); // wait for conversion to complete
-	return ADC;
+{   int temp=0 ;
+	bool b= true;
+	int x;
+	for(int i =0; i<20; i++)
+	{
+		ADMUX = adcSignal;
+		ADCSRA |= (1<<ADSC); // Start conversion
+		while (ADCSRA & (1<<ADSC)); // wait for conversion to complete
+		temp = temp +ADC;
+	}		
+	return temp/20;
+	//while (b == true)
+	//{
+		//b = false;
+		//for(int i=0; i<9; i++)
+		//{
+			//if (temp[i] > temp[i+1] )
+			//{
+				//x= temp[i+1];
+				//temp[i+1]=temp[i];
+				//temp[i]=x;
+				//b = true;
+			//}
+		//}
+		//
+	//}
+	//return temp[4];
 }
 
 unsigned int ReadADC(unsigned char channel)

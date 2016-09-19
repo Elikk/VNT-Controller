@@ -10,7 +10,7 @@ void adcPrepare()
 }
 
 float getAdcVoltage(uint8_t adcSignal)
-{int value;
+{unsigned int value;
 	// Veikimas : paduot reikia is kurio adc kanalo reik perskaityt, apibrezta konstantose
 	ADMUX = adcSignal;
 	ADCSRA |= (1<<ADSC); // Start conversion

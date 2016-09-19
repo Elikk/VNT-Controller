@@ -37,6 +37,8 @@ SUBDIRS :=  \
 # Add inputs and outputs from these tool invocations to the build variables 
 C_SRCS +=  \
 ../Adc.c \
+../Sensors.c \
+../Startup.c \
 ../Display.c \
 ../Interupt.c \
 ../MonitoringBlockV2.c \
@@ -51,6 +53,8 @@ ASM_SRCS +=
 
 OBJS +=  \
 Adc.o \
+Sensors.o \
+Startup.o \
 Display.o \
 Interupt.o \
 MonitoringBlockV2.o \
@@ -59,6 +63,8 @@ PressureSensor.o
 
 OBJS_AS_ARGS +=  \
 Adc.o \
+Sensors.o \
+Startup.o \
 Display.o \
 Interupt.o \
 MonitoringBlockV2.o \
@@ -67,6 +73,8 @@ PressureSensor.o
 
 C_DEPS +=  \
 Adc.d \
+Sensors.d \
+Startup.d \
 Display.d \
 Interupt.d \
 MonitoringBlockV2.d \
@@ -75,6 +83,8 @@ PressureSensor.d
 
 C_DEPS_AS_ARGS +=  \
 Adc.d \
+Sensors.d \
+Startup.d \
 Display.d \
 Interupt.d \
 MonitoringBlockV2.d \
@@ -90,6 +100,10 @@ ADDITIONAL_DEPENDENCIES:=
 OUTPUT_FILE_DEP:= ./makedep.mk
 
 # AVR32/GNU C Compiler
+
+
+
+
 
 
 

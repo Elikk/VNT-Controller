@@ -4,6 +4,10 @@
 
 Adc.c
 
+Sensors.c
+
+Startup.c
+
 Display.c
 
 Interupt.c
