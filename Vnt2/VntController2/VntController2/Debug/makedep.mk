@@ -10,7 +10,11 @@ Interupt.c
 
 lcd.c
 
+PedalSensor.c
+
 PressureSensor.c
+
+VacuumControl.c
 
 VntController2.c
 

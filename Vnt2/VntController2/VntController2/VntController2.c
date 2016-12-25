@@ -11,6 +11,7 @@ volatile int  ScreenType ;
 volatile  bool ScreenChanged ;
 volatile bool Selected = false;
 
+
 volatile short ScreenPointer = 0;
 char buffer[10];
 
@@ -20,10 +21,14 @@ void startup ()
 {
 	
 	adcPrepare();
-	setupTimer();
+	
 	InitializeLcdScreen(); 
 	lcd_home();
 	lcd_puts("#DEDE ready");
+	lcd_gotoxy(0,1);
+	lcd_puts("Version: ");
+	lcd_gotoxy(0,2);
+	lcd_puts(VERSION);
 	
 	//-----------outputs-------------------
 		DDRD = 0xFF; //buzzeris kabo
@@ -37,6 +42,7 @@ void startup ()
 	else
 	ScreenType = SCREEN_MAIN;
 	ScreenChanged = true;
+	setupTimer();
 }
 void ScreenTest()
 {
@@ -49,6 +55,8 @@ void ScreenTest()
 		lcd_puts("  Change VNT (   %)");
 		lcd_gotoxy(0,2);
 		lcd_puts("  Pressure     Bar");
+		lcd_gotoxy(0,3);
+		lcd_puts("  Throttle POS ");
 		ScreenChanged = false;
 	}
 	
@@ -67,12 +75,17 @@ void ScreenTest()
 	lcd_gotoxy(14,1);
 	lcd_puts(buffer);
 	
+	itoa(getPedalPosition(),buffer,10);
+	lcd_gotoxy(16,3);
+	lcd_puts("     ");
+	lcd_gotoxy(16,3);
+	lcd_puts(buffer);
 	
 	
 	lcd_gotoxy(11,2);
 	lcd_puts("    ");
 	lcd_gotoxy(11,2);
-	PutPressure();
+	PutPressure(GetPressure());
 	lcd_gotoxy(0,ScreenPointer);
 		if(Selected)
 		{
@@ -93,6 +106,8 @@ void ScreenTest()
 			return;
 		}
 	
+		
+	
 	lcd_puts("->");
 
 	
@@ -106,15 +121,80 @@ void ScreenTest()
 	ScreenPointer = 3;
 	if (ScreenPointer<0)
 	ScreenPointer = 0;
+		if(BTN_PLUS)
+		{
+			VNT_VAC_ON;
+			VNT_CHANGE;
+		}
+	
+		else if(BTN_MINUS)
+		{
+			VNT_VAC_OFF;
+			VNT_CHANGE;
+		}
+		else
+		VNT_HOLD;
 }
 void ScreenMain()
 {
-	  lcd_home();
-	  lcd_puts("      MAIN SCREEN    ");
+	if (ScreenChanged)
+	{
+		lcd_clrscr();
+		lcd_home();
+		lcd_puts("  PEAK");
+		lcd_gotoxy(0,1);
+		lcd_puts("  Max pressure      ");
+		lcd_gotoxy(0,2);
+		lcd_puts("  Pressure     Bar");
+		lcd_gotoxy(0,3);
+		lcd_puts("  Throttle POS ");
+		ScreenChanged = false;
+	}
+	
+	lcd_gotoxy(0,0);
+	lcd_puts("  ");
+	lcd_gotoxy(0,1);
+	lcd_puts("  ");
+	lcd_gotoxy(0,2);
+	lcd_puts("  ");
+	lcd_gotoxy(0,3);
+	lcd_puts("  ");
+	
+
+	lcd_gotoxy(15,1);
+	lcd_puts("     ");
+	lcd_gotoxy(15,1);
+	PutPressure(MaxSlegis);
+	
+	itoa(getPedalPosition(),buffer,10);
+	lcd_gotoxy(16,3);
+	lcd_puts("     ");
+	lcd_gotoxy(16,3);
+	lcd_puts(buffer);
+	
+	
+	lcd_gotoxy(11,2);
+	lcd_puts("    ");
+	lcd_gotoxy(11,2);
+	PutPressure(pressure);
+	
+	
+	lcd_gotoxy(7,0);
+	lcd_puts("    ");
+	lcd_gotoxy(7,0);
+	PutPressure(peakPressure);
+	
+	
+	if(BTN_MINUS)
+	MaxSlegis=MaxSlegis-10;
+	if(BTN_PLUS)
+	MaxSlegis=MaxSlegis+10;
+	if(MaxSlegis>90)
+	MaxSlegis=90;
+	if(MaxSlegis<0)
+	MaxSlegis=0;
 
 
-		  
-	  
 }
 int main(void)
 {

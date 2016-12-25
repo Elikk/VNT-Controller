@@ -11,6 +11,6 @@
 
 
 extern void InitializeLcdScreen();
-void PutPressure();
+void PutPressure(int a);
 
 #endif /* DISPLAY_H_ */

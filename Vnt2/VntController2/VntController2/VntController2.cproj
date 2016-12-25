@@ -88,7 +88,13 @@
     <Compile Include="Headers\lcd.h">
       <SubType>compile</SubType>
     </Compile>
+    <Compile Include="Headers\PedalSensor.h">
+      <SubType>compile</SubType>
+    </Compile>
     <Compile Include="Headers\PressureSensor.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="Headers\VacuumControl.h">
       <SubType>compile</SubType>
     </Compile>
     <Compile Include="Headers\VntController2.h">
@@ -100,7 +106,13 @@
     <Compile Include="lcd.c">
       <SubType>compile</SubType>
     </Compile>
+    <Compile Include="PedalSensor.c">
+      <SubType>compile</SubType>
+    </Compile>
     <Compile Include="PressureSensor.c">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="VacuumControl.c">
       <SubType>compile</SubType>
     </Compile>
     <Compile Include="VntController2.c">

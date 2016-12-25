@@ -40,7 +40,9 @@ C_SRCS +=  \
 ../Display.c \
 ../Interupt.c \
 ../lcd.c \
+../PedalSensor.c \
 ../PressureSensor.c \
+../VacuumControl.c \
 ../VntController2.c
 
 
@@ -55,7 +57,9 @@ Adc.o \
 Display.o \
 Interupt.o \
 lcd.o \
+PedalSensor.o \
 PressureSensor.o \
+VacuumControl.o \
 VntController2.o
 
 
@@ -64,7 +68,9 @@ Adc.o \
 Display.o \
 Interupt.o \
 lcd.o \
+PedalSensor.o \
 PressureSensor.o \
+VacuumControl.o \
 VntController2.o
 
 
@@ -73,7 +79,9 @@ Adc.d \
 Display.d \
 Interupt.d \
 lcd.d \
+PedalSensor.d \
 PressureSensor.d \
+VacuumControl.d \
 VntController2.d
 
 
@@ -82,7 +90,9 @@ Adc.d \
 Display.d \
 Interupt.d \
 lcd.d \
+PedalSensor.d \
 PressureSensor.d \
+VacuumControl.d \
 VntController2.d
 
 
@@ -95,6 +105,10 @@ ADDITIONAL_DEPENDENCIES:=
 OUTPUT_FILE_DEP:= ./makedep.mk
 
 # AVR32/GNU C Compiler
+
+
+
+
 
 
 

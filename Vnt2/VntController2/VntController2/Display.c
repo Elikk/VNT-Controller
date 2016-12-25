@@ -3,15 +3,13 @@
 #include <stdbool.h>
 extern bool viewChanged = false;
 char buffer[2];
-int a;
 void InitializeLcdScreen()
 {
 	lcd_init(LCD_DISP_ON);
 	lcd_clrscr();
 }
-void PutPressure()
+void PutPressure(int a)
 {
-	a=GetPressure();
 	itoa(a/100,buffer,10);
 	lcd_puts(buffer);
 	lcd_puts(".");

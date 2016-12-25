@@ -6,8 +6,13 @@
 #include "Headers\PressureSensor.h"
 #include "Headers\Adc.h"
 #include "Headers\GlobalValues.h"
+#include "Headers\PedalSensor.h"
+#include "Headers\VacuumControl.h"
 extern volatile short VntPercentage = 50;
-volatile short x = 0;
+volatile int pressure ;
+volatile int MaxSlegis = 70;
+volatile extern int count =0;
+extern volatile int peakPressure = 0;
 #define F_CPU 8000000
 
 void setupTimer()
@@ -19,9 +24,9 @@ void setupTimer()
 	TCCR3A = 0;
 	TCCR3B = 0;
 	
-	OCR1A = 780;//0.1 sekundes
+	OCR1A = 100;//7800 viena sekunde
 
-	OCR3A = 3900;
+	OCR3A = 7800;
 
 	TCCR1B |=(1<<WGM12);
 	TCCR3B |=(1<<WGM32);
@@ -48,13 +53,51 @@ ISR(TIMER3_COMPA_vect)
 
 ISR(TIMER1_COMPA_vect)
 {
-//Valdymas
-VNT_ON;
-for(int i=0;i<=VntPercentage;i++)
-_delay_ms(5);
-VNT_OFF;
-if(BTN_OK)
-VNT_ON;
+	pressure = GetPressure();
+	if(pressure>MAX_SLEGIS || pressure>MaxSlegis)
+	{
+	DecreaseVanePos();
+		return;
+	}
+	
+	if(getPedalPosition()<290)
+	{
+		DecreaseVanePos();
+		return;
+	}
+	
+	if(getPedalPosition()>500)
+	{
+		if(pressure<MAX_SLEGIS && pressure<MaxSlegis)
+		{
+			IncreaseVanePos();
+			return;
+		}
+	}
+	if (getPedalPosition()>220)
+	{
+		if(pressure<MAX_SLEGIS/2 || pressure>MaxSlegis/2)
+		{
+			IncreaseVanePos();
+			return;
+		}
+		else if (pressure>MAX_SLEGIS || pressure>MaxSlegis/2)
+		{
+			DecreaseVanePos();
+			return;
+		}
+	}
+	
+	if (peakPressure<pressure)
+	{
+		peakPressure = pressure;
+	}
+	if(count>40)
+	{
+		peakPressure =0;
+		count = 0;
+	}
+	count++;
 
 }
 
