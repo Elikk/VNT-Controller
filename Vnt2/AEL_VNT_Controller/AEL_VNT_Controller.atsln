@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Atmel Studio Solution File, Format Version 11.00
+Project("{54F91283-7BC4-4236-8FF9-10F437C3AD48}") = "AEL_VNT_Controller", "AEL_VNT_Controller\AEL_VNT_Controller.cproj", "{07134B73-A51B-4FD2-B22A-83A22823F5C4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|AVR = Debug|AVR
+		Release|AVR = Release|AVR
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{07134B73-A51B-4FD2-B22A-83A22823F5C4}.Debug|AVR.ActiveCfg = Debug|AVR
+		{07134B73-A51B-4FD2-B22A-83A22823F5C4}.Debug|AVR.Build.0 = Debug|AVR
+		{07134B73-A51B-4FD2-B22A-83A22823F5C4}.Release|AVR.ActiveCfg = Release|AVR
+		{07134B73-A51B-4FD2-B22A-83A22823F5C4}.Release|AVR.Build.0 = Release|AVR
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
